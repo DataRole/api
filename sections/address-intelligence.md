@@ -44,7 +44,7 @@ All URLs start with `https://api.datarole.com/building/v2/`  **for security purp
 
 The path is prefixed with the product and the API version. If we change the API in backward-incompatible ways, we will incremement the version number and maintain stable support for the old URLs.
 
-To make a request for a dataset, you need to append the request type and query to the path, to form something like https://api.datarole.com/building/v2/address/776+Buena+Vista+Ave+Alameda+CA+94501. In curl, that looks like:
+To make a request for a dataset, you need to append the request type and query to the path. In curl, that looks like:
 
 ```shell
 curl -u account:secret https://api.datarole.com/building/v2/address/776+Buena+Vista+Ave+Alameda+CA+94501
