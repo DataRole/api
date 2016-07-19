@@ -7,7 +7,7 @@ Property records with related auditor, permit and professional data.
 GET ADDRESS
 ----------
 
-* `GET /address/[postal+address]` will return a permit object with all related data.
+* `GET /address/[postal+address]` will return a property object with all related data.
 
 ```shell
 curl -u account:secret https://api.datarole.com/building/v2/address/776+Buena+Vista+Ave+Alameda+CA+94501
