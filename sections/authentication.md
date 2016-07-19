@@ -3,7 +3,7 @@ DataRole APIs Authentication
 
 > Whats the password?
 
-All DataRole product API requests can be authenticated by passing an account and secret access credentials.
+All DataRole product API requests can be authenticated by passing access credentials.  Your access credentials consist of an *account name* and *secret key*.
 
 DataRole API Basic Auth
 -----------------------
