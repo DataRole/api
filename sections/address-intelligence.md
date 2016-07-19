@@ -7,7 +7,7 @@ This is a RESTful API that uses JSON for serialization and Basic HTTP Authentica
 REST
 ----
 
-We do our best to have all of our URLs be [RESTful](http://en.wikipedia.org/wiki/Representational_state_transfer). Every endpoint (URL) may support one of four different http verbs. GET requests fetch information about a single object, POST requests create a new object, PUT requests update an existing object, and finally DELETE requests will remove an existing object.
+We do our best to have all of our URLs be [RESTful](http://en.wikipedia.org/wiki/Representational_state_transfer). Every endpoint (URL) may support one of four different HTTP verbs. GET requests fetch information about a single object, POST requests create a new object, PUT requests update an existing object, and finally DELETE requests will remove an existing object.
 
 To enable improved searching capability some endpoints will allow POST requests to fetch information utilizing advanced queries. 
 
@@ -22,7 +22,7 @@ Our response format has no root element and we use [PascalCase](https://en.wikip
 Authentication
 --------------
 
-Please ensure you're making a private (server-side) integration with DataRole for your authentication to guard against  your access credentials being compromised. You can use HTTP Basic Authentication or HTTP Header authentication. This is secure since all requests in the DataRole APIs use SSL.
+Please ensure you're making a private (server-side) integration with DataRole for your authentication to guard against  your access credentials being compromised. You can use HTTP Basic Authentication or HTTP Header Authentication. This is secure since all requests in the DataRole APIs use SSL.
 
 We suggest you do not implement public (client-side) integrations with DataRole as this will compromise your access credentials.
 
