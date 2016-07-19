@@ -50,18 +50,6 @@ To make a request for a dataset, you need to append the request type and query t
 curl -u account:secret https://api.datarole.com/building/v2/address/776+Buena+Vista+Ave+Alameda+CA+94501
 ```
 
-To conduct a more advanced search for data, it's the same concept except you have to use the plural for the dataset and include the `Content-Type` header, as well as, the JSON search data:
-
-```shell
-curl -u account:secret \
-  -H 'Content-Type: application/json' \
-  -d '{ "Region": "CA_Alameda" }' \
-  https://api.datarole.com/building/v2/permits
-```
-
-That's all!
-
-
 Response Structure
 ------------------
 
@@ -100,9 +88,7 @@ The *Response* attribute is used to communicate extra information about an error
 Available Datasets
 ------------------
 
-* [Permits](https://github.com/DataRole/api/blob/master/sections/permits.md)
-* [Properties](https://github.com/DataRole/api/blob/master/sections/properties.md)
-* [Professionals](https://github.com/DataRole/api/blob/master/sections/professionals.md)
+* [Address](https://github.com/DataRole/api/blob/master/sections/address.md)
 
 API Software Development Kits
 -----------------------------
