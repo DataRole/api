@@ -57,7 +57,7 @@ To conduct a more advanced search for data, it's the same concept except you hav
 curl -u account:secret \
   -H 'Content-Type: application/json' \
   -d '{ "Region": "CA_Alameda" }' \
-  https://api.datarole.com/building/v2/address/776+Buena+Vista+Ave+Alameda+CA+94501
+  https://api.datarole.com/building/v2/permits
 ```
 
 That's all!
