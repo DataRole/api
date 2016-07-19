@@ -71,11 +71,11 @@ Every response is wrapped in an envelope. That is, each response has a predictab
 ```json
 {
     "Property": { 
-      "Address": {},
-      "Auditor": {},
-      "Permits": {
-        "Professionals": {}
-      }
+        "Address": {},
+        "Auditor": {},
+        "Permits": {
+            "Professionals": {}
+        }
     }
 }
 ```
@@ -93,7 +93,7 @@ The *Response* attribute is used to communicate extra information about an error
     "Response": {
         "Code": 401,
         "Error": "Unauthorized",
-        "Message": "You do not have access to this resource."
+        "Message": "You do not have permission to access this resource."
     }
 }
 ```
