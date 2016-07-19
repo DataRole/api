@@ -7,7 +7,7 @@ This is a RESTful API that uses JSON for serialization and Basic HTTP Authentica
 REST
 ----
 
-We do our best to have all our URLs be [RESTful](http://en.wikipedia.org/wiki/Representational_state_transfer). Every endpoint (URL) may support one of four different http verbs. GET requests fetch information about a single object, POST requests create a new object, PUT requests update an existing object, and finally DELETE requests will remove an existing object.
+We do our best to have all of our URLs be [RESTful](http://en.wikipedia.org/wiki/Representational_state_transfer). Every endpoint (URL) may support one of four different http verbs. GET requests fetch information about a single object, POST requests create a new object, PUT requests update an existing object, and finally DELETE requests will remove an existing object.
 
 To enable improved searching capability some endpoints will allow POST requests to fetch information utilizing advanced queries. 
 
@@ -15,10 +15,9 @@ To enable improved searching capability some endpoints will allow POST requests 
 No XML, Just JSON
 -----------------
 
-We only support [JSON](https://en.wikipedia.org/wiki/JSON) for serialization of data. Our response format has no root element and we use [PascalCase](https://en.wikipedia.org/wiki/PascalCase) formatting to describe attribute keys. 
+We only support [JSON](https://en.wikipedia.org/wiki/JSON) for serialization of data.  This means that you have to send `Content-Type: application/json; charset=utf-8` when you're POSTing or PUTing data to DataRole.
 
-This means that you have to send `Content-Type: application/json; charset=utf-8` when you're POSTing or PUTing data to DataRole.
-
+Our response format has no root element and we use [PascalCase](https://en.wikipedia.org/wiki/PascalCase) formatting to describe attribute keys.
 
 Authentication
 --------------
