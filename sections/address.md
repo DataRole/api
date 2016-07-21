@@ -346,3 +346,36 @@ Footnotes |	varchar(12) | Indicates which changes were made to the input address
 LacslinkCode |	varchar(2) | The reason for the LACSLink indication that was given (below)<br><br><ul><li>A — Match: Address provided. LACSLink record match was found, and a converted address was provided.</li><li>00 — No Match. No converted address. No soup for you!</li><li>09 — Match: No new address. LACSLink matched an input address to an old address which is a "high-rise default" address; no new address was provided.</li><li>14 — Match: No conversion. Found a LACSLink record, but couldn't convert the data to a deliverable address.</li><li>92 — Match: Dropped secondary number. LACSLink record was matched after dropping the secondary number from input.</li><li>[blank] — No LACSLink lookup attempted.</li></ul>
 LacslinkIndicator |	varchar(1) | Indicates whether there is an address match in the LACSLink database.<br><br><ul><li>Y — LACS record match; a new address could be furnished because the input record matched a record in the master file.</li><li>S — LACS record - secondary number dropped; the record is a ZIP+4 street level or high-rise match. The input record matched a master file record, but the input address had a secondary number and the master file record did not.</li><li>N — No match; a new address could not be furnished; the input record could not be matched to a record in the master file.</li><li>F — False positive; a false positive record was detected.</li><li>[blank] — No LACSLink lookup attempted.</li><\ul>
 SuitelinkMatch | varchar(5) | Indicates a match (or not) to the USPS SuiteLink data. SuiteLink attempts to provide secondary information such as "suite" or "apartment" whenever there is a match based on address and Firm Name (Company) input.<br><br><ul><li>true — There was a SuiteLink match and the result is provided.</li><li>false — There was no SuiteLink match.</li></ul>
+
+## Auditor
+Coming Soon
+
+## Permits
+Field Name | Type | Definition
+--- | --- | ---
+Id | integer | Internal identification number,
+DateModified | datetime | Date/Time value indicating date, timezone type and timezone of last internal update
+DateModifiedTimestamp | integer | Unix timestamp of date modified
+Description | string | Context of work performed for the permit
+EstProjectCost | float | Estimated value of the work performed
+IssuedDate | datetime | Date/Time value indicating date, timezone type and timezone of the date the permit was issued
+IssuedDateTimestamp | integer | Unix timestamp of issued date
+LastUpdated | datetime | Date/Time value indicating date, timezone type and timezone of last source update
+LastUpdatedTimestamp | integer | Unix timestamp of last updated
+PermitClass | varchar(25) | Residential vs Commercial designation at the filing level
+PermitNum | string | Source identification number ( Permit filing number )
+PermitType | string | Category of work performed (e.g. Roof, Plumbing, HVAC, Electrical, etc )
+Region | string | Internal geographical classification
+StatusCurrent | string | Current status of the permit (e.g. APPLIED, ISSUED, FINALED, CLOSED, etc )
+
+## Permits: Professionals
+Field Name | Type | Definition
+--- | --- | ---
+Id | integer | Internal identification number,
+ContractorCompanyName | string | Name of the business that performed the work
+ContractorEmail | string | Contact email for the business that performed the work 
+ContractorLicNum | string | License number of the business that performed the work
+ContractorPhone | integer | Phone number of the business that performed the work
+DateModified | datetime | Date/Time value indicating date, timezone type and timezone of last internal update
+DateModifiedTimestamp | integer | Unix timestamp of date modified
+Region | string | Internal geographical classification
