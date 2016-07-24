@@ -1,4 +1,4 @@
-!["DataRole Address Intelligence"](https://www.datarole.com/wp-content/uploads/2016/02/datarole-logo-tag-gray.png "Address Intelligence Allows You To Predict Your Customers")
+!["DataRole Address Intelligence"](https://www.datarole.com/images/d07b8bb.png "Address Intelligence Allows You To Predict Your Customers" )
 
 DataRole APIs
 =============
