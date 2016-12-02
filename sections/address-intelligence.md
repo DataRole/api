@@ -61,7 +61,8 @@ Every response is wrapped in an envelope. That is, each response has a predictab
         "Address": {},
         "Auditor": {},
         "Permits": {
-            "Professionals": {}
+            "Professionals": {},
+            "Tags": {}
         }
     }
 }
