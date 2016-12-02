@@ -11,7 +11,7 @@ DataRole API Basic Auth
 To hit the ground running with the DataRole APIs, just use HTTP Basic Authentication by suppling your access credentials:
 
 ```shell
-curl -u account:secret https://api.datarole.com/building/v2/
+curl -u account:secret https://api.datarole.com/building/v2/address/776+Buena+Vista+Ave+Alameda+CA+94501
 ```
 
 
@@ -21,7 +21,7 @@ DataRole API Header Authentication
 DataRole allows header authentication as well:
 
 ```shell
-curl -H "X-DataRole-Account: account" -H "X-DataRole-Secret: secret" https://api.datarole.com/building/v2/
+curl -H "X-DataRole-Account: account" -H "X-DataRole-Secret: secret" https://api.datarole.com/building/v2/address/776+Buena+Vista+Ave+Alameda+CA+94501
 ```
 
 
