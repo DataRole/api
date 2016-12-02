@@ -360,7 +360,6 @@ Description | string | Context of work performed for the permit
 EstProjectCost | float | Estimated value of the work performed
 IssuedDate | datetime | Date/Time value indicating date, timezone type and timezone of the date the permit was issued
 IssuedDateTimestamp | integer | Unix timestamp of issued date
-PermitClass | varchar(25) | Residential vs Commercial designation at the filing level
 PermitNum | string | Source identification number ( Permit filing number )
 PermitType | string | Category of work performed (e.g. Roof, Plumbing, HVAC, Electrical, etc )
 Region | string | Internal geographical classification
