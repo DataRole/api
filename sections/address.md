@@ -347,7 +347,7 @@ Coming Soon
 ## Permits
 Field Name | Type | Definition
 --- | --- | ---
-Id | integer | Internal identification number,
+Id | integer | Internal identification number
 DateModified | datetime | Date/Time value indicating date, timezone type and timezone of last internal update
 DateModifiedTimestamp | integer | Unix timestamp of date modified
 Description | string | Context of work performed for the permit
@@ -362,7 +362,7 @@ StatusCurrent | string | Current status of the permit (e.g. Applied, Issued, Fin
 ## Permits: Professionals
 Field Name | Type | Definition
 --- | --- | ---
-Id | integer | Internal identification number,
+Id | integer | Internal identification number
 ContractorCompanyName | string | Name of the business that performed the work
 ContractorEmail | string | Contact email for the business that performed the work 
 ContractorLicNum | string | License number of the business that performed the work
