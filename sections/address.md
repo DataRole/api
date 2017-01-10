@@ -356,7 +356,7 @@ IssuedDate | datetime | Date/Time value indicating date, timezone type and timez
 IssuedDateTimestamp | integer | Unix timestamp of issued date
 PermitNum | string | Source identification number ( Permit filing number )
 PermitType | string | Category of work performed (e.g. Roof, Plumbing, HVAC, Electrical, etc )
-Region | string | Internal geographical classification
+Region | string | Internal classification for provenance of data
 StatusCurrent | string | Current status of the permit (e.g. APPLIED, ISSUED, FINALED, CLOSED, etc )
 
 ## Permits: Professionals
@@ -369,4 +369,4 @@ ContractorLicNum | string | License number of the business that performed the wo
 ContractorPhone | integer | Phone number of the business that performed the work
 DateModified | datetime | Date/Time value indicating date, timezone type and timezone of last internal update
 DateModifiedTimestamp | integer | Unix timestamp of date modified
-Region | string | Internal geographical classification
+Region | string | Internal classification for provenance of data
