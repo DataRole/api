@@ -357,7 +357,7 @@ IssuedDateTimestamp | integer | Unix timestamp of issued date
 PermitNum | string | Source identification number ( Permit filing number )
 PermitType | string | Category of work performed (e.g. Roof, Plumbing, HVAC, Electrical, etc )
 Region | string | Internal classification for provenance of data
-StatusCurrent | string | Current status of the permit (e.g. APPLIED, ISSUED, FINALED, CLOSED, etc )
+StatusCurrent | string | Current status of the permit (e.g. APPLIED, ISSUED, FINALED, PENDING )
 
 ## Permits: Professionals
 Field Name | Type | Definition
