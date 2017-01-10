@@ -80,7 +80,6 @@ curl -u account:secret https://api.datarole.com/building/v2/address/776+Buena+Vi
                     "timezone": "America\/Chicago"
                 },
                 "LastUpdatedTimestamp": 1396975176,
-                "PermitClass": null,
                 "PermitNum": "SLR14-0055",
                 "PermitType": "Other",
                 "Region": "CA_Alameda",
@@ -124,7 +123,6 @@ curl -u account:secret https://api.datarole.com/building/v2/address/776+Buena+Vi
                     "timezone": "America\/Chicago"
                 },
                 "LastUpdatedTimestamp": 1396873954,
-                "PermitClass": null,
                 "PermitNum": "P14-0163",
                 "PermitType": "Plumbing",
                 "Region": "CA_Alameda",
@@ -168,7 +166,6 @@ curl -u account:secret https://api.datarole.com/building/v2/address/776+Buena+Vi
                     "timezone": "America\/Chicago"
                 },
                 "LastUpdatedTimestamp": 1396873932,
-                "PermitClass": null,
                 "PermitNum": "SLT14-0054",
                 "PermitType": "Other",
                 "Region": "CA_Alameda",
@@ -212,7 +209,6 @@ curl -u account:secret https://api.datarole.com/building/v2/address/776+Buena+Vi
                     "timezone": "America\/Chicago"
                 },
                 "LastUpdatedTimestamp": 1383150143,
-                "PermitClass": "Residential",
                 "PermitNum": "B13-0979",
                 "PermitType": "Building",
                 "Region": "CA_Alameda",
@@ -240,7 +236,6 @@ curl -u account:secret https://api.datarole.com/building/v2/address/776+Buena+Vi
                     "timezone": "America\/Chicago"
                 },
                 "LastUpdatedTimestamp": 1321987102,
-                "PermitClass": null,
                 "PermitNum": "E11-0237",
                 "PermitType": "Electrical",
                 "Region": "CA_Alameda",
@@ -268,7 +263,6 @@ curl -u account:secret https://api.datarole.com/building/v2/address/776+Buena+Vi
                     "timezone": "America\/Chicago"
                 },
                 "LastUpdatedTimestamp": 1427749038,
-                "PermitClass": null,
                 "PermitNum": "E14-0122",
                 "PermitType": "Electrical",
                 "Region": "CA_Alameda",
