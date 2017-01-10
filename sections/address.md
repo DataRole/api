@@ -355,7 +355,7 @@ EstProjectCost | float | Estimated value of the work performed
 IssuedDate | datetime | Date/Time value indicating date, timezone type and timezone of the date the permit was issued
 IssuedDateTimestamp | integer | Unix timestamp of issued date
 PermitNum | string | Source identification number ( Permit filing number )
-PermitType | string | Category of work performed (e.g. Roof, Plumbing, HVAC, Electrical, etc )
+PermitType | string | Category of work performed (e.g. Roof, Plumbing, HVAC, Electrical )
 Region | string | Internal classification for provenance of data
 StatusCurrent | string | Current status of the permit (e.g. Applied, Issued, Finaled, Pending )
 
