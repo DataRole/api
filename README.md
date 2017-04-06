@@ -3,31 +3,32 @@
 DataRole APIs
 =============
 
-Looking to integrate with a DataRole product? We've got everything you need here. From sample code to detailed API documentation, you'll be up and running in no time.  The first version of the DataRole API is an exciting step forward towards making it easier for clients to have open access to our data. We created the API so that you can surface the amazing content DataRole publishes in real-time.
+Looking to integrate with a DataRole product? We've got everything you need here. From sample code to detailed API documentation, you'll be up and running in no time. The first version of the DataRole API is an exciting step toward making it easier for clients to have open access to our data. We created the API so that you can use the amazing content DataRole publishes in real-time.
 
 
-Where do I start?
------------------
+Get Started
+-----------
 
-Want to get started with API integration? Here's a quick check list:
+Here's how to get started with API integration:
 
 1. [Register your application](https://www.datarole.com/api) to recieve an authentication token for accessing the API.
-2. Read up on how to [authenticate your application](#authentication) with our API.
-3. Peruse the [API Documentation](#api-documentation) for detailed examples.
-4. Check out our [Software Development Kits](#software-development-kits) available for fast service integration.
-5. Have a question? Post it on [StackOverflow](http://stackoverflow.com/questions/ask) tagged with the desired product (`datarole-address-intelligence`).
+2. [Authenticate your application](#authentication) with our API.
+3. Follow the detailed examples in our [API Documentation](#api-documentation).
+4. Use our [Software Development Kits](#software-development-kits) for fast service integration.
+
+Have a question? Post it on [StackOverflow](http://stackoverflow.com/questions/ask) and tag it with the desired product (`datarole-address-intelligence`).
 
 
 Authentication
 --------------
 
-Accessing our product APIs requires authentication.  We have a [detailed guide](https://github.com/DataRole/api/blob/master/sections/authentication.md) for authenticating with our API.
+Accessing our product APIs requires authentication. Here's a [detailed guide](https://github.com/DataRole/api/blob/master/sections/authentication.md) for authenticating with our API.
 
 
 API Documentation
 -----------------
 
-Need to look up the API documentation for a specific product?
+Need the API documentation for a specific product?
 
 * [DataRole Address Intelligence API](https://github.com/DataRole/api/blob/master/sections/address-intelligence.md)
 * More coming soon!
@@ -36,7 +37,7 @@ Need to look up the API documentation for a specific product?
 Software Development Kits
 -------------------------
 
-Need to look up the SDK documentation for a specific product?
+Need the SDK documentation for a specific product?
 
 * [Official DataRole Address Intelligence PHP SDK](https://github.com/datarole/api-client-php)
 * More coming soon!
@@ -45,6 +46,6 @@ Need to look up the SDK documentation for a specific product?
 Help us make it better
 ----------------------
 
-Please tell us how we can make the API better. If you have a specific feature request or if you found a bug, please use GitHub issues. Fork these docs and send a pull request with improvements.
+Please tell us how we can make the API better. If you have a specific feature request or you found a bug, please use GitHub issues. Fork these docs and send a pull request with improvements.
 
-To talk with us and other developers about the API, [post a question on StackOverflow](http://stackoverflow.com/questions/ask) tagged `datarole-address-intelligence`.
+To talk with us and other developers about the API, [post a question on StackOverflow](http://stackoverflow.com/questions/ask) and tag it with `datarole-address-intelligence`.
